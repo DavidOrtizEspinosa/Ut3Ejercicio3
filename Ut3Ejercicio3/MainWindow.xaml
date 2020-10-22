@@ -1,0 +1,50 @@
+﻿<Window x:Class="Ut3Ejercicio3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ut3Ejercicio3"
+        mc:Ignorable="d"
+        Title="Mosaico" MinHeight="475" MinWidth="450"
+        Icon="mosaico.ico"
+    Height="444.368"
+    Width="314.841">
+    <DockPanel LastChildFill="True">
+        <TextBlock
+            Height="100"
+            DockPanel.Dock="Top"
+            Background="#FF04FFE8" />
+        <TextBlock
+            Width="100"
+            DockPanel.Dock="Left"
+            Background="#FF04FFE8" />
+        <TextBlock
+            Width="100"
+            DockPanel.Dock="Right"
+            Background="#FFFFFF11" />
+        <TextBlock
+            Height="100"
+            DockPanel.Dock="Bottom"
+            Background="#FFFFFF11" />
+        <TextBlock
+            Width="100"
+            DockPanel.Dock="Left"
+            Background="#FF0CAE04" />
+        <TextBlock
+            Height="100"
+            DockPanel.Dock="Bottom"
+            Background="#FF0CAE04"/>
+        <TextBlock
+            Width="100"
+            DockPanel.Dock="Right"
+            Background="#FF982FF0" />
+        <TextBlock
+            Height="100"
+            DockPanel.Dock="Top"
+            Background="#FF982FF0"/>
+        <TextBlock
+            
+            Background="Black" />
+
+    </DockPanel>
+</Window>
